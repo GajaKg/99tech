@@ -1,0 +1,19 @@
+.swap__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swap__container--glow {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #b67dc0;
+}
+
+.swap__button {
+  padding: 5px 10px;
+  cursor: pointer;
+}

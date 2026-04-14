@@ -1,0 +1,9 @@
+.currency-form__input-loading input {
+  color: #121212;
+}
+.currency-form__input-spinner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}

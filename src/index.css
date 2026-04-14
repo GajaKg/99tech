@@ -1,0 +1,50 @@
+/* @tailwind base; */
+@tailwind utilities;
+@tailwind components;
+
+:root {
+  height: 100svh;
+  background:
+    radial-gradient(circle at top left, rgba(75, 0, 130, 0.8), transparent 50%),
+    linear-gradient(135deg, #1a0033 0%, #000000 70%);
+}
+
+.error-message {
+  font-size: 14px;
+  color: rgb(255, 54, 54);
+}
+
+@keyframes glow-sweep {
+  0% {
+    background-position: -100% -100%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.icon {
+  transition: color 0.3s ease;
+}
+
+.idle {
+  color: white;
+  filter: none;
+}
+
+.animate {
+  color: #ff4dff;
+  background: linear-gradient(
+    135deg,
+    transparent 10%,
+    #ff4dff 80%,
+    transparent 10%
+  );
+  background-size: 200% 200%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: glow-sweep 0.6s linear infinite;
+  filter: drop-shadow(0 0 6px #ff4dff);
+}
