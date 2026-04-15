@@ -136,9 +136,7 @@ function Swap() {
                 {error && <p className='error-message'>{error}</p>}
 
                 {loading && (
-                    <div className={style.swap__container + " max-w-[500px]"}>
-                        <Skeleton width="430px" height="45px"></Skeleton>
-                    </div>
+                    <Skeleton width="430px" height="45px"></Skeleton>
                 )}
 
                 {/* send currency */}
@@ -175,9 +173,7 @@ function Swap() {
                     currencyChanged={onRecieveCurrencyChanged} />
 
                 {loading && (
-                    <div className={style.swap__container + " max-w-[500px]"}>
-                        <Skeleton width="430px" height="45px"></Skeleton>
-                    </div>
+                    <Skeleton width="430px" height="45px"></Skeleton>
                 )}
 
             </div>
