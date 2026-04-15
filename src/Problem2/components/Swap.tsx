@@ -137,8 +137,8 @@ function Swap() {
 
                 {loading && (
                     <>
-                        <Skeleton width="430px" height="45px" className='hidden min-[600px]:block'></Skeleton>
-                        <Skeleton width="236px" height="90px" className='w-[600px] min-[600px]:hidden'></Skeleton>
+                        <Skeleton width="100%" height="45px" className='hidden min-[600px]:block'></Skeleton>
+                        <Skeleton width="100%" height="90px" className='min-[600px]:hidden'></Skeleton>
                     </>
                 )}
 
@@ -177,8 +177,8 @@ function Swap() {
 
                 {loading && (
                     <>
-                        <Skeleton width="430px" height="45px" className='hidden min-[600px]:block'></Skeleton>
-                        <Skeleton width="236px" height="90px" className='w-[600px] min-[600px]:hidden'></Skeleton>
+                        <Skeleton width="100%" height="45px" className='hidden min-[600px]:block'></Skeleton>
+                        <Skeleton width="100%" height="90px" className='min-[600px]:hidden'></Skeleton>
                     </>
                 )}
 
